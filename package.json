@@ -1,10 +1,10 @@
 {
 
-  "name": "Example",
+  "name": "OV",
 
-  "description": "Example",
+  "description": "Discord Bot",
 
-  "version": "0.0.0",
+  "version": "0.0.1v",
 
   "main": "bot.js",
 
