@@ -86,7 +86,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
 
-    if ('vegeta' in message.content.toLowerCase ()) {
+    if (message.content.toLowerCase ().includes ('vegeta')) {
 	    
         message.send (responses [getRandomInt (65)]);
 
