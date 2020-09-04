@@ -88,7 +88,7 @@ client.on('message', message => {
 
     if (message.content.toLowerCase ().includes ('vegeta')) {
 	    
-        message.send (responses [getRandomInt (65)]);
+        message.channel.send (responses [getRandomInt (65)]);
 
     }
 
