@@ -72,6 +72,10 @@ let responses = [
 
 ];
 
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
 client.on('ready', () => {
 
     console.log('Vegeta\'s Here');
@@ -83,12 +87,10 @@ client.on('ready', () => {
 client.on('message', message => {
 
     if ('vegeta' in message.content.toLowerCase ()) {
+	    
+        message.send (responses [getRandomInt (65)]);
 
-    	let i = Math.floor(Math.random() * 65);
-
-       message.send (responses [i]);
-
-       }
+    }
 
 });
 
