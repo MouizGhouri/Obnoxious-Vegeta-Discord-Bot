@@ -1,9 +1,8 @@
-
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
-let responses [65] = {
+let responses = [
 
 	"You're The One Who Started This Game. And Now That You're Losing, It's No Fun Anymore. You're Just A Big Baby.",
 	"You're Just A Mindless Freak Of Nature, A Big Wad Of Spit-Out Chewing Gum!",
@@ -71,7 +70,7 @@ let responses [65] = {
 	"Go out and play if you want. But leave Cell to me. Because I don’t want anyone getting in my way. Do you understand?",
 	"Kakarot… please… destroy Frieza… He made me what I am… Don’t let him… do it… to anyone else… whatever it takes… stop him… please"
 
-}; 
+];
 
 client.on('ready', () => {
 
